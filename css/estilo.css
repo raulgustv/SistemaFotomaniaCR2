@@ -1,0 +1,129 @@
+*{
+	font-family: arial;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+/* Cabecera */
+
+.header{
+	padding: 30px;
+	background-color: #111;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+
+}
+
+.menu{
+	padding: 10px;
+	background: #111;
+
+}
+
+
+.menu a{
+	text-decoration: none;
+	color: #fff;
+	background-color: #111;
+	margin-left: 20px;
+	position: relative;
+
+}
+
+.menu a:hover{
+	background: #000;
+}
+
+
+/* Cuerpo */
+
+.cuerpo{
+	background: #eaeaea;
+	padding: 30px;
+	min-height: 500px;
+
+}
+
+/* Cuerpo Tienda */
+
+
+.producto{
+	width: 25%;
+	padding: 15px;
+	background: #C5C5C5;
+	color: #333;
+	display: inline-block;
+	margin: 5px;
+}
+
+.imgProducto{
+	text-align: center;
+	width: 335px;
+	height: 335px;
+}
+
+.nombreProducto{
+	padding: 10px;
+	color: #FFF;
+	background: #2C4EFE;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+
+}
+
+.precio{
+	color: #14AE0E;
+}
+
+.producto button{
+	text-align: right;
+}
+
+/* Carrito */
+
+.carrito{
+	margin-top: 40px;
+}
+
+.imagenCarro{
+	width: 120px;
+	height: 120px;
+	border: 2px solid #99ccff;
+	border-radius: 1000px;
+}
+
+.btnCompra button{
+	border: double;
+	display: inline-block;
+	position: relative;
+
+}
+
+
+
+/* Login */
+
+
+.centrarLogin{
+	width: 40%;
+	text-align: center;
+	padding-top: 100px;
+}
+
+
+
+
+/* Pie Página */
+.footer{
+	background-color: #000;
+	color: #aaa;
+	text-align: center;
+	font-size: 10px;
+	padding: 50px;
+}
